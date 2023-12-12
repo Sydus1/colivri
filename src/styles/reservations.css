@@ -1,0 +1,51 @@
+.reserva-equipos {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items to the center of the flex container */
+    justify-content: center; /* Center the content vertically, if there's space */
+    padding: 20px;
+    background-color: #111; /* or any color that matches your design */
+    text-align: center; /* Center text for all child elements */
+  }
+  
+  .reserva-equipos-text {
+    margin-bottom: 20px; /* Add space between the text and the button/image section */
+    color: white;
+  }
+  
+  .reserva-equipos-text h2 {
+    margin-top: 2%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  
+  .reserva-equipos-text p {
+    margin-top: 5%;
+    font-size: 19px;
+  }
+  
+  .reserva-equipos-action {
+    display: flex;
+    align-items: center; /* This will align the button and image on the same level */
+    justify-content: center; /* This will center the button and image horizontally */
+    width: 100%; /* Ensure the container spans the full width */
+  }
+  
+  .reserva-button {
+    padding: 10px 20px;
+    font-size: 30px; /* adjust as needed */
+    font-weight: bold;
+    background-color: #fff; /* or any color that matches your design */
+    color: #000;
+    border-radius: 8%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20%;
+  }
+  
+  .reserva-equipos-image img {
+    max-width: 100%;
+    height: auto; /* to keep the aspect ratio of the image */
+  }
+  

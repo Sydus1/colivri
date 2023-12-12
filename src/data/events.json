@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "Tarjeta 1",
+      "text": "Contenido de la Tarjeta 1.",
+      "image": "slider.png"
+    },
+    {
+      "id": 2,
+      "title": "Tarjeta 2",
+      "text": "Contenido de la Tarjeta 2.",
+      "image": "slider.png"
+    },
+    {
+      "id": 3,
+      "title": "Tarjeta 3",
+      "text": "Contenido de la Tarjeta 3.",
+      "image": "slider.png"
+    },
+    {
+      "id": 4,
+      "title": "Tarjeta 4",
+      "text": "Contenido de la Tarjeta 4.",
+      "image": "slider.png"
+    },
+    {
+      "id": 5,
+      "title": "Tarjeta 5",
+      "text": "Contenido de la Tarjeta 5.",
+      "image": "slider.png"
+    },
+    {
+      "id": 6,
+      "title": "Tarjeta 6",
+      "text": "Contenido de la Tarjeta 6.",
+      "image": "slider.png"
+    }
+  ]
+  

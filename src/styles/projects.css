@@ -1,0 +1,9 @@
+.Projects {
+    margin-top: 80px;
+}
+.Projects h2 {
+    margin-top: 2%;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}

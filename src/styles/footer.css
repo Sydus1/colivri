@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: #111; /* Color de fondo oscuro */
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Alinea texto e íconos en los extremos */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 15px; /* Ajusta el tamaño del texto según sea necesario */
+  }
+  
+  /* Ajustes para los enlaces de teléfono y dirección */
+  footer a {
+    color: blue; /* o cualquier otro color según el diseño */
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer address {
+    font-style: normal; /* Para que la dirección no aparezca en cursiva */
+  }
+  
+  /* Añadir media queries si es necesario para hacer el diseño responsivo */
+  
