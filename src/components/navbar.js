@@ -13,11 +13,11 @@ function Navbar() {
       <div className={isNavCollapsed ? 'collapse' : 'collapse show'} id="navbarToggleExternalContent">
         <div className="bg-dark p-4">
           <nav className="nav flex-column">
-            <a className="nav-link active text-white" href="#">Proyectos</a>
-            <a className="nav-link text-white" href="#">Papers</a>
-            <a className="nav-link text-white" href="#">Grupos</a>
+            <a className="nav-link active text-white" href="/eventos">Proyectos</a>
+            <a className="nav-link text-white" href="/eventos">Papers</a>
+            <a className="nav-link text-white" href="/eventos">Grupos</a>
             <a className="nav-link text-white" href="/eventos">Eventos</a>
-            <a className="nav-link text-white" href="#">Equipo</a>
+            <a className="nav-link text-white" href="/eventos">Equipo</a>
             {/* Más enlaces si es necesario */}
           </nav>
         </div>
@@ -36,11 +36,11 @@ function Navbar() {
         </button>
         <a className="navbar-brand" href="/"><img src={logo} alt="Logo" className="navbar-logo" /></a>
         <div className="navbar-links d-none d-lg-flex ml-auto"> {/* Oculto en pantallas pequeñas */}
-          <a href="#" className="nav-link">Proyectos</a>
-          <a href="#" className="nav-link">Papers</a>
-          <a href="#" className="nav-link">Grupos</a>
+          <a href="/eventos" className="nav-link">Proyectos</a>
+          <a href="/eventos" className="nav-link">Papers</a>
+          <a href="/eventos" className="nav-link">Grupos</a>
           <a href="/eventos" className="nav-link">Eventos</a>
-          <a href="#" className="nav-link">Equipo</a>
+          <a href="/eventos" className="nav-link">Equipo</a>
           {/* Más enlaces si es necesario */}
         </div>
       </nav>

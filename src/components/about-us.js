@@ -10,7 +10,7 @@ function Navbar() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-lg-6 image">
-                        <img src={logo}></img>
+                        <img src={logo} alt="logo"></img>
                     </div>
                     <div className="col-sm-12 col-lg-6 info">
                         <li>
