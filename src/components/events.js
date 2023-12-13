@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
-import data from '../data/events.json'; // Asegúrate de ajustar la ruta
+import data from '../data/events.json';
 import '../styles/events.css';
 
 const CarouselWithCards = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    setCards(data); // Asumiendo que 'data' es tu JSON importado
+    setCards(data);
   }, []);
 
   const renderCarouselItems = () => {
-    // Definir cuántas tarjetas se deben mostrar según el ancho de la ventana
     const cardsPerSlide = window.innerWidth < 600 ? 1 : window.innerWidth < 850 ? 2 : 3;
     
     const chunks = [];

@@ -31,7 +31,6 @@
     font-size: 19px;
 }
 
-/* Ajustes de responsividad */
 @media (max-width: 768px) {
     .image{
         display: none;

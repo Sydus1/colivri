@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/companies.css';
 
-// Array of image objects with src and alt text
 const images = [
   { src: 'unity.png', alt: 'Unity Logo' },
   { src: 'meta.png', alt: 'Meta Logo' },
@@ -20,13 +19,11 @@ const Carousel = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 4) % images.length);
-    }, 3000); // Cambia la imagen cada 3 segundos
+    }, 3000);
 
-    // Limpiar el intervalo cuando el componente se desmonte
     return () => clearInterval(timer);
   }, []);
 
-  // Obtener el grupo de imágenes para mostrar
   const imageGroup = images.slice(index, index + 4);
 
   return (

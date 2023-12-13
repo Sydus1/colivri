@@ -14,14 +14,13 @@
 }
 
 .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.1); /* Cambia el color del borde si es necesario */
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-/* Cambia el color del ícono cuando está activo o enfocado */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus,
@@ -32,11 +31,11 @@
 }
 
 .custom-bg-color {
-  background-color: #111; /* Reemplaza #yourColor con el código de color que prefieras */
+  background-color: #111;
 }
 
 .navbar-collapse.collapsing {
-  display: none; /* Esto es para evitar un efecto intermedio de display durante la transición */
+  display: none;
 }
 
 .navbar-collapse.collapse.show {
@@ -44,7 +43,7 @@
 }
 
 .navbar-links {
-  margin-left: auto; /* Empuja los enlaces hacia la derecha */
+  margin-left: auto;
   display: flex;
   margin-right: 5%;
 }
@@ -53,7 +52,7 @@
   color: white;
   text-decoration: none;
   font-family: sans-serif;
-  margin: 0 30px; /* Reduce el margen entre enlaces */
+  margin: 0 30px;
 }
 
 .navbar-logo {

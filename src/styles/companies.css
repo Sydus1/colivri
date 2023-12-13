@@ -7,7 +7,7 @@
   
   .carouselCompanies h2 {
     text-align: center;
-    margin-bottom: 20px; /* Ajusta según sea necesario */
+    margin-bottom: 20px;
     margin-top: 2%;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -16,24 +16,24 @@
   }
   
   .carousel__button {
-    display: none; /* Oculta los botones */
+    display: none;
   }
   
   .carousel__images {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    width: 100%; /* Asegura que el contenedor de las imágenes llene el ancho */
+    width: 100%;
   }
   
   .carousel__image {
-    flex: 0 0 25%; /* Mantiene las imágenes a 4 por vista */
+    flex: 0 0 25%;
     
-    max-width: 250px; /* Ancho máximo para todas las imágenes */
+    max-width: 250px;
     min-width: 200px;
-    max-height: 250px; /* Altura máxima para todas las imágenes */
+    max-height: 250px;
     box-sizing: border-box;
-    padding: 50px; /* Espacio entre imágenes, ajustable si es necesario */
+    padding: 50px;
     transition: transform 0.5s ease;
   }
   

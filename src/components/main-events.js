@@ -5,7 +5,6 @@ import slide from '../assets/imgs/slider.png';
 import '../styles/mainEvents.css';
 
 const MainEvents = () => {
-  // Estado para controlar el índice activo del carrusel
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -19,21 +18,21 @@ const MainEvents = () => {
         <Carousel.Item>
           <img
             className="d-block carousel-img"
-            src={slide} // Coloca aquí la URL de tu primera imagen
+            src={slide}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block carousel-img"
-            src={slide} // Coloca aquí la URL de tu segunda imagen
+            src={slide}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block carousel-img"
-            src={slide} // Coloca aquí la URL de tu tercera imagen
+            src={slide}
             alt="Third slide"
           />
         </Carousel.Item>

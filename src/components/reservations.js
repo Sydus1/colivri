@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/reservations.css'; // This imports the CSS file we will create
+import '../styles/reservations.css';
 import logo from "../assets/imgs/vr.webp";
 
 function ReservaEquipos() {
@@ -17,7 +17,6 @@ function ReservaEquipos() {
 
             <div className="col-6">
                 <div className="reserva-equipos-image">
-                {/* Image tag would go here, with the 'src' attribute set to the path of your VR headset image */}
                 <img src={logo} alt="VR Headset"/>
                 </div>
             </div>

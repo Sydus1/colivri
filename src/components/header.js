@@ -3,7 +3,6 @@ import { Carousel } from 'react-bootstrap';
 import slide from '../assets/imgs/slider.png';
 
 const Header = () => {
-  // Estado para controlar el índice activo del carrusel
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -16,21 +15,21 @@ const Header = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={slide} // Coloca aquí la URL de tu primera imagen
+            src={slide}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={slide} // Coloca aquí la URL de tu segunda imagen
+            src={slide}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={slide} // Coloca aquí la URL de tu tercera imagen
+            src={slide}
             alt="Third slide"
           />
         </Carousel.Item>

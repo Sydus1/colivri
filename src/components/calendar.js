@@ -23,7 +23,7 @@ function Calendar() {
 const iframeContainerStyle = {
   marginTop: '20px',
   position: 'relative',
-  paddingBottom: '56.25%', /* 16:9 Aspect Ratio */
+  paddingBottom: '56.25%',
   paddingTop: '25px',
   height: 0,
   overflow: 'hidden',

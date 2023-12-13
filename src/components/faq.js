@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/faq.css'; // Make sure this path is correct based on your project structure
+import '../styles/faq.css';
 
 const FaqComponent = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -18,7 +18,6 @@ const FaqComponent = () => {
         answer: 'It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
     },
 
-    // ...add more FAQs here
   ];
 
   const toggleFAQ = (index) => {
