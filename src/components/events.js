@@ -11,16 +11,19 @@ const CarouselWithCards = () => {
   }, []);
 
   const renderCarouselItems = () => {
+    // Definir cuántas tarjetas se deben mostrar según el ancho de la ventana
+    const cardsPerSlide = window.innerWidth < 600 ? 1 : window.innerWidth < 850 ? 2 : 3;
+    
     const chunks = [];
-    for (let i = 0; i < cards.length; i += 3) {
-      chunks.push(cards.slice(i, i + 3));
+    for (let i = 0; i < cards.length; i += cardsPerSlide) {
+      chunks.push(cards.slice(i, i + cardsPerSlide));
     }
-
+  
     return chunks.map((chunk, index) => (
       <Carousel.Item key={index}>
-        <div className="d-flex">
+        <div className="d-flex flex-wrap justify-content-around">
           {chunk.map(card => (
-            <div className="card" key={card.id}>
+            <div className={`card ${cardsPerSlide === 2 ? 'flex-basis-50' : 'flex-basis-33'}`} key={card.id}>
               <img src={require(`../assets/imgs/${card.image}`)} className="card-img-top" alt={`Imagen ${card.id}`} />
               <div className="card-body">
                 <h5 className="card-title">{card.title}</h5>

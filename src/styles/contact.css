@@ -51,5 +51,9 @@
     color: white;
   }
   
-  /* Asegúrate de incluir el CSS de Font Awesome para que los íconos se muestren correctamente */
+  @media (max-width: 768px) {
+    .disc {
+      margin-top: 25%;
+    }
+  }
   

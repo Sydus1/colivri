@@ -7,13 +7,13 @@ const ContactUs = () => {
       <h2 className="contact-us-title">Contáctanos</h2>
       <div className="container">
         <div className='row'>
-          <div className="social-media col-6">
+          <div className="social-media col-12 col-md-6">
             <h3>@COLIVRI_UNIANDES</h3>
             <div className='icons-social-media'>
               <a href="mailto:viverovirtual@uniandes.edu.co" className="email-link"><i className="bi bi-envelope"></i></a>
             </div>
           </div>
-          <div className="social-media col-6">
+          <div className="social-media col-12 col-md-6 disc">
             <h3>@DISCUNIANDES</h3>
             <div className='icons-social-media'>
               <a href="https://facebook.com" className="social-link"><i className="bi bi-facebook"></i></a>

@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 80px;
-  background-color: #111;
+  background-color: #111 !important;
   color: white;
   position: fixed;
   top: 0;
@@ -11,6 +11,36 @@
   z-index: 1000;
   padding: 0 10px;
   position: fixed !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1); /* Cambia el color del borde si es necesario */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Cambia el color del ícono cuando está activo o enfocado */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler-icon:active {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-bg-color {
+  background-color: #111; /* Reemplaza #yourColor con el código de color que prefieras */
+}
+
+.navbar-collapse.collapsing {
+  display: none; /* Esto es para evitar un efecto intermedio de display durante la transición */
+}
+
+.navbar-collapse.collapse.show {
+  display: block;
 }
 
 .navbar-links {

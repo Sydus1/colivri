@@ -48,4 +48,14 @@
     max-width: 100%;
     height: auto; /* to keep the aspect ratio of the image */
   }
+
+  @media (max-width: 768px) {
+    .reserva-equipos-image{
+        display: none;
+    }
+
+    .reserva-button {
+      padding: 10px 90px;
+    }
+  }
   

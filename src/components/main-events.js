@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import slide from '../assets/imgs/slider.png';
 
-const Header = () => {
+import '../styles/mainEvents.css';
+
+const MainEvents = () => {
   // Estado para controlar el índice activo del carrusel
   const [index, setIndex] = useState(0);
 
@@ -11,25 +13,26 @@ const Header = () => {
   };
 
   return (
-    <div className="header"> 
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+    <div className="mainEvents">
+      <h2>Eventos y Noticias</h2>
+      <Carousel className="carousel" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block carousel-img"
             src={slide} // Coloca aquí la URL de tu primera imagen
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block carousel-img"
             src={slide} // Coloca aquí la URL de tu segunda imagen
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block carousel-img"
             src={slide} // Coloca aquí la URL de tu tercera imagen
             alt="Third slide"
           />
@@ -40,4 +43,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default MainEvents;
