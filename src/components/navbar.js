@@ -12,7 +12,7 @@ function Navbar() {
       <div className={isNavCollapsed ? 'collapse' : 'collapse show'} id="navbarToggleExternalContent">
         <div className="bg-dark p-4">
           <nav className="nav flex-column">
-            <a className="nav-link active text-white" href="/eventos">Proyectos</a>
+            <a className="nav-link active text-white" href="/proyectos">Proyectos</a>
             <a className="nav-link text-white" href="/eventos">Papers</a>
             <a className="nav-link text-white" href="/eventos">Grupos</a>
             <a className="nav-link text-white" href="/eventos">Eventos</a>
@@ -33,7 +33,7 @@ function Navbar() {
         </button>
         <a className="navbar-brand" href="/"><img src={logo} alt="Logo" className="navbar-logo" /></a>
         <div className="navbar-links d-none d-lg-flex ml-auto">
-          <a href="/eventos" className="nav-link">Proyectos</a>
+          <a href="/proyectos" className="nav-link">Proyectos</a>
           <a href="/eventos" className="nav-link">Papers</a>
           <a href="/eventos" className="nav-link">Grupos</a>
           <a href="/eventos" className="nav-link">Eventos</a>

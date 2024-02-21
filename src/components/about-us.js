@@ -5,7 +5,7 @@ import logo from "../assets/imgs/logo.png";
 function Navbar() {
     return (
         <div className="about">
-            <h2>¿Qué es ColiVRi?</h2>
+            <h2>¿Qué es Colivri?</h2>
 
             <div className="container">
                 <div className="row">

@@ -6,6 +6,8 @@
     padding: 20px;
     background-color: #111;
     text-align: center;
+    margin-top: 0px; /* Agrega espacio arriba */
+    margin-bottom: 0px; /* Agrega espacio abajo */
   }
   
   .reserva-equipos-text {
@@ -14,7 +16,8 @@
   }
   
   .reserva-equipos-text h2 {
-    margin-top: 2%;
+    margin-top: 6%;
+    margin-bottom: 0px;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 45px;

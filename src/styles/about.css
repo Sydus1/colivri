@@ -1,5 +1,5 @@
 .about h2{
-    margin-top: 2%;
+    margin-top: 4%;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 45px;
@@ -21,6 +21,7 @@
 .about li{
     margin-top: 10%;
     list-style-type: none;
+    margin-bottom: 14%;
 }
 
 .about ul{

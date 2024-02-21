@@ -3,6 +3,8 @@
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 50px; /* Agrega espacio arriba */
+    margin-bottom: 70px; /* Agrega espacio abajo */
   }
 
 .faq-container h2{

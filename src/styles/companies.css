@@ -7,8 +7,7 @@
   
   .carouselCompanies h2 {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 2%;
+    margin-top: 4%;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 45px;
@@ -28,12 +27,12 @@
   
   .carousel__image {
     flex: 0 0 25%;
-    
     max-width: 250px;
     min-width: 200px;
     max-height: 250px;
     box-sizing: border-box;
     padding: 50px;
     transition: transform 0.5s ease;
+    margin-bottom: 70px;
   }
   
