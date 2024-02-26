@@ -1,38 +1,38 @@
 [
     {
       "id": 1,
-      "title": "Tarjeta 1",
-      "text": "Contenido de la Tarjeta 1.",
+      "title": "Evento 1",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "image": "slider.png"
     },
     {
       "id": 2,
-      "title": "Tarjeta 2",
-      "text": "Contenido de la Tarjeta 2.",
+      "title": "Evento 2",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "image": "slider.png"
     },
     {
       "id": 3,
-      "title": "Tarjeta 3",
-      "text": "Contenido de la Tarjeta 3.",
+      "title": "Evento 3",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "image": "slider.png"
     },
     {
       "id": 4,
-      "title": "Tarjeta 4",
-      "text": "Contenido de la Tarjeta 4.",
+      "title": "Evento 4",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "image": "slider.png"
     },
     {
       "id": 5,
-      "title": "Tarjeta 5",
-      "text": "Contenido de la Tarjeta 5.",
+      "title": "Evento 5",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "image": "slider.png"
     },
     {
       "id": 6,
-      "title": "Tarjeta 6",
-      "text": "Contenido de la Tarjeta 6.",
+      "title": "Evento 6",
+      "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "image": "slider.png"
     }
   ]
