@@ -1,5 +1,6 @@
 .events {
   padding: 60px;
+  margin-bottom: 20px; /* Agrega espacio abajo */
 }
 
 .d-flex {
